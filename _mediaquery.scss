@@ -1,0 +1,3845 @@
+.hidden-desktop { 
+    display: block;
+}
+
+.visible-inline-desktop { 
+    display: none;
+}
+
+.visible-inline-tablet-mobile {
+    display: none;
+}
+
+.hide-item {
+    opacity: 0;
+    visibility: hidden;
+}
+.info-container.navigation-links-reviewbox{
+    display: block;
+}
+// @media (max-width: 992px) {
+//     .info-container.navigation-links-reviewbox{
+//         display: none;
+//     }
+// }
+@media (min-width: 992px) {
+    .hide-tablet {
+        display: block;
+    }
+    .show-tablet {
+        display: none;
+    }
+    .custom-pages-sidebar {
+        .custom-pages-link-container {
+            .middle-text {
+                p {
+                    font-size: 12px;
+                }
+                span {
+                    font-size: 11px;
+                }
+            }
+            .right-arrows {
+                display: none;
+            }
+        }
+    }
+    .full-width {
+        .toplist-brands {
+            .toplist-bonus {
+                padding: 0 10px;
+                width: 40%;
+                text-align: center;
+            }
+            .toplist-cta {
+                width: 25%;
+                .cta-button {
+                    padding: 7.5px 20px;
+                }
+            }
+            .toplist-bonusbox {
+                width: 30%;
+                padding: 0 5px;
+            }
+            .toplist-img {
+                width: 12.5%;
+            }
+            .toplist-rating {
+                width: 15%;
+            }
+            .toplist-tc-row {
+                padding: 5px;
+            }
+            .recension-logo {
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .toplist-cta {
+            .cta-button {
+                span {
+                    font-size: 18px;
+                }
+            }
+        }
+        .toplist-rating {
+            p {
+                font-weight: 700;
+                font-size: 15px;
+                border-bottom: 0.5px solid;
+                border-color: #cccccc;
+                padding-bottom: 2px;
+            }
+        }
+        .related-article-item-content {
+            .related-thumbnail {
+                img {
+                    height: 160px;
+                }
+            }
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .toplist-brands {
+                .toplist-cta {
+                    .cta-button {
+                        padding: 5px 2.5px;
+                    }
+                }
+            }
+        }
+    }
+    #slots-list {
+        .slots-container {
+            width: 25%;
+        }
+        .slots-thumbnail {
+            height: 150px;
+        }
+        .slots-title {
+            padding: 10px;
+        }
+        .slots-info {
+            padding: 10px;
+            padding-top: 2.5px;
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .slots-slider {
+        .slots-title {
+            padding: 10px 10px 5px 10px;
+        }
+        .slots-info {
+            padding: 10px;
+            padding-top: 2.5px;
+        }
+        .slots-item {
+            margin-bottom: 3.5px;
+        }
+    }
+    #filter-options {
+        #filter-options-title {
+            display: none;
+        }
+    }
+}
+
+
+@media (min-width: 900px) {
+    table.all-casinos-list .column-toplist:nth-child(3n+1) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .show-tablet {
+        display: table;
+        width: 100%;
+        .short-facts {
+            h3 {
+                display: none;
+            }
+        }
+    }
+    .hide-tablet {
+        display: none;
+    }
+    .full-width {
+        .upper {
+            .toplist-bonusbox {
+                display: none;
+            }
+        }
+    }
+    body.slots {
+        .sidebar {
+            display: none;
+        }
+    }
+    .slider-parent {
+        height: 300px;
+    }
+    #filter-options {
+        #filter-options-title {
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+            border: 1px solid;
+            border-color: #f1f0f0;
+            box-shadow: 0px 3px 8px rgba(95,95,95,0.28);
+        }
+        .all-filter-options {
+            display: none;
+            width: 100%;
+            float: left;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        #filter-options-title.dropdown-title {
+            &:after {
+                position: absolute;
+                right: 5px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1100px) and (min-width: 992px) {
+    .full-width {
+        .toplist-brands {
+            .toplist-rating {
+                width: 20%;
+                padding: 0 5px;
+            }
+            .toplist-img {
+                width: 15%;
+            }
+            .toplist-bonus {
+                padding: 0 10px;
+                width: 35%;
+                text-align: center;
+            }
+            .toplist-cta {
+                width: 25%;
+            }
+        }
+    }
+    .toplist-brands {
+        .toplist-rating {
+            width: 25%;
+        }
+    }
+}
+
+@media (min-width: 1050px) {
+    .logo-container {
+        justify-content: space-evenly;
+
+    }
+    .hidden-desktop {
+        display: none !important;
+    }
+    .visible-inline-desktop {
+        display: inline-block !important;
+    }
+    .bongo-search-header {
+        position: absolute;
+        right: 40px;
+        height: 100%;
+    }
+    .menu-item-has-children {
+        >a {
+            &:after {
+                margin-left: 0.25em;
+                font-size: 13px;
+                vertical-align: middle;
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f107";
+                color: $reverse;
+                float: right;
+            }
+        }
+        &:hover {
+            >a {
+                &:after {
+                    margin-left: 0.25em;
+                    font-size: 13px;
+                    vertical-align: middle;
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: "\f106";
+                    transition: all 0.1s ease-in-out;
+                    color: $reverse;
+                }
+            }
+        }
+    }
+    .bottom-menu {
+        ul.depth0 {
+            >li {
+                border-bottom: 1px solid;
+                border-color: #dadada78;
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+    .bongo-menu-list {
+        >ul {
+            >li.menu-item-has-children.menu-item {
+                &:hover {
+                    >ul {
+                        display: inline-block;
+                        z-index: 999;
+                        animation: menuEffect 0.4s both;
+                    }
+                }
+            }
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+    }
+    ul.depth0 {
+        >li.menu-item-has-children.menu-item {
+            &:hover {
+                >ul {
+                    display: block;
+                    top: 0;
+                    padding: 0;
+                    left: 100%;
+                    margin: 0;
+                    z-index: 999;
+                    animation: menuEffect 0.4s both;
+                }
+            }
+        }
+        >li.menu-item-has-children {
+            >a {
+                &:after {
+                    color: $dark;
+                    content: "\f054";
+                    position: absolute;
+                    right: 2.5px;
+                }
+            }
+            &:hover {
+                >a {
+                    &:after {
+                        color: $reverse;
+                        content: "\f054";
+                        position: absolute;
+                        right: 2.5px;
+                    }
+                }
+            }
+        }
+    }
+    ul.depth1 {
+        >li.menu-item-has-children.menu-item {
+            &:hover {
+                >ul {
+                    display: block;
+                    top: 100%;
+                    padding: 0;
+                    left: 0;
+                    margin: 0;
+                    z-index: 999;
+                    animation: menuEffect 0.4s both;
+                }
+            }
+        }
+        >li.menu-item-has-children {
+            >a {
+                &:after {
+                    color: $dark;
+                }
+            }
+        }
+    }
+    .sub-menu {
+        li {
+            a {
+                font-size: 13px;
+                font-weight: 400;
+                padding: 10px 10px;
+                text-transform: none;
+            }
+        }
+    }
+    .depth1 {
+        li {
+            a {
+                font-size: 12px;
+                font-weight: 400;
+                padding: 10px 10px;
+            }
+        }
+    }
+    .bongo-col-menu {
+        display: flex;
+        justify-content: center;
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 601px) { 
+
+    @keyframes pulse {
+        0% {
+            box-shadow: 0px 0px 0px #6bd4b1;
+            border-radius: 0.1px;
+        }
+        100% {
+            box-shadow: 0 0 0 12px transparent;    
+        }
+    }
+
+    .toplist-brands .toplist-flex:hover .toplist-cta .cta-button {
+        animation: pulse 1.25s infinite;
+        box-shadow: 0 0 0 0 rgba(115,205,64,.7);
+    }
+
+}
+
+@media (min-width: 767px) {
+    .author-archive {
+        .author-container {
+            margin-top: 0;
+            max-width: 1200px;
+            float: none;
+        }
+        .author-box {
+            width: 23.5%;
+            margin-right: 2%;
+            &:nth-child(4n) {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1300px) {
+
+	.bottom-menu a {
+	    font-size: 14px;
+	}
+
+	.sub-menu li a {
+		font-size: 13px;
+	}
+
+    // .logo-container {
+    //     margin-left: 20px;
+    // }
+
+}
+@media (max-width: 1200px){
+
+    .site-logo img {
+        width: 100px;
+        height: 55px;
+    }
+}
+@media (max-width: 1200px) {
+    .review-header {
+        display: table;
+        width: 100%;
+        height: auto;
+        .brands-container {
+            padding: 15px 25px;
+            width: 70%;
+            flex-direction: column;
+        }
+        .review-img {
+            width: 100%;
+            margin-bottom: 2.5px;
+            flex-direction: column;
+            img {
+                max-height: 120px;
+                margin: 0;
+                margin-right: 5px;
+            }
+            h1 {
+                display: block;
+                text-align: center;
+                line-height: 1;
+                margin: 0;
+                font-size: 40px;
+                margin-top: 5px;
+                color: $reverse;
+            }
+            span {
+                margin-top: 0;
+                font-size: 35px;
+            }
+        }
+        .review-bonusbox {
+            width: 100%;
+            padding: 10px;
+            padding-top: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            background: none;
+            border: none;
+            box-shadow: none;
+            h1 {
+                font-size: 40px;
+                display: block;
+                text-align: center;
+                // color: white;
+                margin-bottom: 15px;
+            }
+            ul {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                li {
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+                    // color: #ecf0f1;
+                }
+            }
+        }
+        .review-cta {
+            width: 100%;
+            .cta-button {
+                padding: 12.5px 40px 12.5px 40px;
+                span {
+                    font-size: 22px;
+                    line-height: 1;
+                    &:before {
+                        font-size: 22px;
+                    }
+                }
+            }
+            .tc-link {
+                display: inline-flex;
+            }
+            p {
+                margin: 10px;
+            }
+        }
+    }
+    .tc-box-review {
+        span {
+            font-size: 11px;
+        }
+    }
+    .review-navigation {
+        .brands-navbar {
+            padding: 0 22px;
+        }
+    }
+    .featured-header {
+        padding: 0 50px;
+    }
+    .featured-block-main {
+        .featured-info {
+            p {
+                font-size: 15px;
+            }
+            span {
+                font-size: 11px;
+                display: block;
+            }
+        }
+    }
+    .featured-block-small {
+        .featured-info {
+            p {
+                font-size: 12px;
+            }
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+    .main-pages {
+        .featured-block-small {
+            .featured-info {
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .tc-sidebar-box {
+        span {
+            font-size: 9px;
+        }
+    }
+    .review {
+        .tc-sidebar-box {
+            span {
+                font-size: 8px;
+            }
+        }
+    }
+    .review-text {
+        padding: 0 10px;
+    }
+    .review-info {
+        padding: 0 10px;
+        margin-top: 0;
+    }
+    .rightside {
+        .cta-button {
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .middle {
+        span {
+            font-size: 11px;
+        }
+    }
+    .bottom-menu {
+        a {
+            font-size: 13px;
+            padding: 5px 12.5px;
+        }
+    }
+    .page-info {
+        padding: 10px 12px;
+    }
+}
+
+
+@media (max-width: 1100px) { 
+    .tc-sidebar-box span {
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width: 1049px) {
+    .menu-item:after{
+        margin-top: -2px;
+    }
+    .visible-inline-tablet-mobile {
+        display: inline-block;
+    }
+
+    .review .tc-sidebar-box>span:not(:last-child) {
+        padding-right: .25em;
+    }
+
+    .featured-block-main .featured-logo img {
+        height: 80px;
+    }
+
+    .rightside .cta-button {
+        padding: 2.5px 5px;
+    }
+
+    .rightside .cta-button span {
+        font-size: 11px;
+    }
+
+    footer .sidebar-footer {
+        border-bottom: none;
+    }
+
+	.bongo-menu-list {
+        transition: all 0.4s ease;
+        width: 100%;
+        background:$theme-blue;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 42px;
+        right: 0;
+        z-index: 999;
+        animation: fadeInUp 0.4s both;
+        box-shadow: 1px 2px 2px #27020236;
+    }
+
+    .bottom-menu ul li {
+        display: block;
+    }
+
+    .bottom-menu>ul>li {
+        border-bottom: 1px solid;
+        border-color: rgba(136, 10, 60, 0.15);
+        padding: 0;
+    }
+
+    .bottom-menu>ul>li:hover, .bottom-menu>ul>li:active{
+        color: $theme;
+        
+        >a {
+            color: $theme;
+        }
+
+        >.mb-dropdown-icon:before {
+            color: $theme;
+        }
+
+    }
+
+     .bottom-menu>ul>li:last-child {
+        border-bottom: 0;
+    }
+
+    .bottom-menu a {
+        font-size: 18px;
+        font-weight: 400;
+        color: $white;
+        display: block;
+        padding: 12px 5px 12px 5px;
+    }
+
+    .bongo-menu-list > ul > li > a:after {
+        color: $dark;
+    }
+
+
+    .bongo-menu-list > ul > li.menu-item-has-children .mb-dropdown-icon {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        width: 22px;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+    }
+
+    .bongo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon {
+        height: 37px;
+    }
+
+    .bongo-menu-list>ul>li.menu-item-has-children>ul>li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon {
+        height: 34px;
+    }
+
+    .sub-menu { 
+        padding: 5px 0 0 0;
+    }
+
+    .bongo-menu-list>ul>li.menu-item-has-children>ul>li.menu-item-has-children .mb-dropdown-icon:hover:before {
+        color: $reverse;
+    }
+
+    .sub-menu.depth0>li {
+        padding: 0;
+    }
+
+    .sub-menu.depth1>li {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .sub-menu.depth2>li {
+        padding: 0;
+    }
+
+    ul.depth0 {
+        display: none;
+        background: none;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        box-shadow: none;
+       a {       
+            font-size: 16px;
+            color:$white;     
+            padding-left: 20px;
+        }
+        >li:hover {
+            >a {
+                color: $reverse;
+            }
+            >.mb-dropdown-icon:before {
+                color: $reverse;
+            }
+        }
+    }
+
+   .sub-menu a:active {
+    background: none;
+    color: $dark;
+   }
+
+    ul.depth1 {
+        display: none;
+        background: none;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        padding: 5px 0;
+        box-shadow: none;
+        a {
+            color: #767677;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 10px 0;
+            padding-left: 10px;
+        }
+    }
+
+    ul.depth1>li:hover {
+        >a {
+            color: $red;
+        }
+        >.mb-dropdown-icon:before {
+            color: $reverse;
+        }
+    }
+
+    ul.depth2 {
+        display: none;
+        background: none;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        padding-left: 5px;
+        box-shadow: none;
+
+        a {
+            color: #767677;
+            font-size: 12px;
+            font-weight: 400;
+             padding: 5px 0;
+        }
+    }
+
+    ul.depth2>li:hover {
+        >a {
+            color: $red;
+        }
+        >.mb-dropdown-icon:before {
+            color: $red;
+        }
+    }
+
+    ul.depth0>li.menu-item-has-children .mb-dropdown-icon:before {
+        font-size: 24px;
+    }
+
+    ul.depth1>li.menu-item-has-children .mb-dropdown-icon:before {
+        font-size: 22px;
+    }
+
+    .search-results {
+        margin-top: 13px;
+    }
+    .visible-tablet {
+        display: block !important;
+    }
+    .hidden-tablet {
+        display: none;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+    .navigation {
+        position: absolute;
+        height: 70px;
+        width: calc( 100% - 100px );
+        z-index: 10;
+    }
+    .top-menu {
+        a {
+            display: flex;
+            align-items: center;
+        }
+        li {
+            width: auto;
+            span {
+                font-size: 15px;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    .bongo-search-header {
+        float: right;
+        margin-right: 35px;
+        i {
+            padding: 7px;
+        }
+    }
+    #search-wrap {
+        input {
+            box-shadow: none;
+            &:focus {
+                background: none;
+            }
+        }
+        ul {
+            li {
+                &:first-child {
+                    border-left: none;
+                }
+                width: 90%;
+            }
+        }
+        #li-4 {
+            width: 10%;
+            float: right;
+            cursor: pointer;
+            border-right: none;
+        }
+    }
+    .bongo-menu-list {
+        height: calc( 100vh - 55px );
+        top: 55px;
+        overflow-y: auto;
+    }
+    
+    header {
+        width: 100%;
+        margin-bottom: 0;
+        display: flex;
+        height: 100px;
+        // z-index: 100;
+        // position: fixed;
+        // background: #880b3c;
+    }
+    .site-logo {
+        font-size: 30px;
+        height: 65px;
+    }
+    .navbar-header-menu {
+        width: 100%;
+        // height: 100%;
+        position: absolute;
+        border-bottom: 1px solid;
+        border-color: $block-border;
+        background: #172631;
+        z-index: 9;
+        border: none;
+        top:1%;
+    }
+    .navbar-header-menu.fixed {
+        position: absolute;
+    }
+    // main {
+    //     padding-top: 100px;
+    // }
+    .review-page-main{
+        padding-top: 0px;
+    }
+    .search-wrap.active {
+        margin-top: 60px;
+        opacity: 1;
+    }
+    #search-wrap.fixed {
+        position: absolute;
+        top: auto;
+    }
+    .tags-wrap.active {
+        height: 50px;
+        margin-top: 110px;
+    }
+    .tags-wrap.fixed {
+        position: absolute;
+        top: auto;
+    }
+    .form-control {
+        background-color: $dark-blue;
+        color: $white;
+        &::placeholder {
+            color:$white;
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .toplist-brands {
+                .toplist-img {
+                    .recension-logo {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .toplist-bonus {
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .full-width {
+                .toplist-rating {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .tc-container {
+                span {
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 991px) {
+    .sidebar {
+        padding-left: 0;
+    }
+    .review-text {
+        width: 100%;
+    }
+    .review-info {
+        width: 100%;
+    }
+    .review {
+        .tc-sidebar-box {
+            span {
+                font-size: 9px;
+            }
+            >span {
+                &:not(:last-child) {
+                    padding-right: .5em;
+                }
+            }
+        }
+    }
+    .full-width-background {
+        display: none;
+    }
+    .main-featured {
+        width: 100%;
+    }
+    .main-pages {
+        .sub-featured {
+            width: 100%;
+        }
+        .main-featured {
+            width: 100%;
+        }
+        .featured-block-small {
+            padding: 0;
+            height: auto;
+            .featured-info {
+                p {
+                    font-size: 14px;
+                }
+                .featured-tag {
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .featured-block-main {
+        .featured-image {
+            height: 250px;
+        }
+        .featured-logo {
+            width: 110px;
+        }
+        .info-wrapper {
+            padding: 10px;
+        }
+        .featured-info {
+            height: auto;
+            .read-more-btn {
+                width: 100%;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+    .featured-header {
+        margin: 25px 0;
+        padding: 0 75px;
+    }
+    .featured-block-small {
+        .featured-image {
+            width: 30%;
+        }
+        .featured-info {
+            width: 70%;
+            padding: 7.5px 10px;
+            p {
+                font-size: 17px;
+                margin-bottom: 5px;
+            }
+            span {
+                font-size: 13px;
+            }
+            .read-more-btn {
+                padding: 5px 10px;
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+        padding: 0;
+        margin-top: 10px;
+        &:last-child {
+            margin-bottom: 5px;
+        }
+        &:nth-of-type(1) {
+            margin-bottom: 0;
+        }
+        &:nth-of-type(2) {
+            margin-bottom: 0;
+        }
+    }
+    .featured-toggle {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .homepage {
+        .sub-featured {
+            display: none;
+            width: 100%;
+        }
+    }
+    .related-article-item {
+        display: flex;
+    }
+    .related-thumbnail {
+        width: 30%;
+    }
+    .related-info {
+        width: 70%;
+        padding: 5px;
+        p {
+            font-size: 16px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+    .middle {
+        width: 70%;
+        p {
+            font-size: 15px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+    .rightside {
+        width: 30%;
+        .cta-button {
+            padding: 5px;
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+    .odds-sub {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+        .odds-item {
+            padding: 5px 0;
+            width: 15%;
+        }
+    }
+    .odds-item {
+        a {
+            margin: 0;
+        }
+    }
+    .odds-speltips {
+        .speltips-tips {
+            width: 45%;
+            padding: 0;
+        }
+        .speltips-item {
+            width: 15%;
+            .speltips-link {
+                width: auto;
+            }
+        }
+    }
+    .tc-sidebar-box {
+        span {
+            font-size: 11px;
+        }
+    }
+    .footer-info-container {
+        flex-direction: row;
+    }
+    footer {
+        .footer-logo {
+            width: 100%;
+            text-align: center;
+            img {
+                width: 50px;
+            }
+        }
+        .footer-info-row {
+            width: 33.33%;
+            padding: 0;
+            margin-top: 10px;
+            text-align: center;
+            li {
+                text-align: center;
+            }
+        }
+    }
+    .recension-title {
+        margin-bottom: 5px;
+    }
+    .review-cta-scroll {
+        width: 100%;
+        .review-cta-container {
+            padding: 5px 5px;
+            .toplist-brands {
+                .toplist-cta {
+                    // width: 100%;
+                    margin-top: 0px;
+                }
+            }
+            // .toplist-img {
+            //     display: none;
+            // }
+            .toplist-rating {
+                display: none;
+            }
+            // .toplist-bonus {
+            //     display: none;
+            // }
+            .toplist-cta {
+                .cta-button {
+                    width: 75%;
+                    display: inline-block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 7.5px;
+                }
+            }
+            .tc-container {
+                margin: 0;
+            }
+            .tc-container.extra-field {
+                text-align: center;
+            }
+        }
+        .toplist-cta {
+            .cta-button {
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .review-content-container {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .review-header {
+        .review-bonusbox {
+            ul {
+                width: 80%;
+            }
+        }
+    }
+    .review.svenska-spel {
+        h1 {
+            margin-bottom: 5px;
+        }
+    }
+    .header-textarea {
+        .wp-block-image {
+            margin-left: 30px;
+            padding: 0;
+            min-width: 150px;
+        }
+    }
+    .full-widht-header {
+        .wp-block-image {
+            img {
+                max-height: 150px;
+            }
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .casino-filter-container {
+                flex-direction: column;
+            }
+            .full-width {
+                .toplist-rating {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .toplist-brands {
+                .toplist-img {
+                    .recension-logo {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+            .tc-container {
+                span {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    #filter-options {
+        width: 100%;
+    }
+    #response {
+        width: 100%;
+        padding: 0;
+    }
+    table.toplist-table {
+        tbody {
+            tr {
+                padding: 5px;
+            }
+        }
+        ul {
+            li {
+                font-size: 9px;
+                &:before {
+                    margin-right: 2.5px;
+                  font-size: 10px;
+                }
+            }
+        }
+        .rightside {
+            padding: 2.5px 5px;
+            .btn {
+                margin: 5px 0;
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+        a.review-link {
+            font-size: 11px;
+        }
+        .middle {
+            p {
+                font-size: 15px;
+            }
+        }
+        thead {
+            tr {
+                padding: 2.5px 5px;
+            }
+        }
+    }
+    .casino-filter-container {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .review-block {
+        padding: 20px 15px;
+        .right-block {
+            padding-left: 55px;
+            svg {
+                width: 40px;
+            }
+            .bonustext {
+                font-size: 22px;
+            }
+        }
+    }
+    .related-article-item-content {
+        .related-thumbnail {
+            height: 150px;
+        }
+        .related-info {
+            padding: 10px;
+        }
+    }
+    .post-categories {
+        display: none;
+    }
+    ul.large {
+        li {
+            font-size: 14px;
+        }
+    }
+    ul.checkmarks {
+        li {
+            &:before {
+                margin-right: 7.5px;
+            }
+        }
+    }
+    .fullwidth {
+        .schema-faq-section {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+    .container.author-pages {
+        padding: 30px 20px;
+    }
+  .homepage-intro-section {
+    min-height: auto;
+    padding-bottom: 0;
+    .container {
+      padding: 0;
+    }
+  }
+  .container-block.intro-homepage {
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 1;
+
+  }
+  .homepage-toplist-section {
+    background: none;
+    margin-top: -30px;
+  }
+
+}
+
+
+
+@media (max-width: 900px) {
+    main {
+        padding-top: 2px;
+    }
+    header {
+        height: 55px;
+        margin-bottom: 0;
+    }
+    .navigation {
+        position: absolute;
+        height: 45px;
+        width: 100%;
+        z-index: 10;
+        margin-top: 55px;
+        background: $dark;
+        background: $red;
+        background: $block;
+        border-bottom: 1px solid;
+        border-color: #3a393924;
+    }
+    .header-container {
+        align-items: normal;
+    }
+    .bongo-menu-list {
+        top: 47px;
+        height: calc( 100vh - 93px);
+    }
+    .top-menu {
+        .menu-items {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        float: none;
+        text-align: center;
+        a {
+            color: $dark;
+            font-size: 16px;
+        }
+    }
+    .searchfield {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+    #searchform {
+        width: calc( 100% - 120px);
+        padding-left: 10px;
+    }
+    .search-results {
+        margin-top: 54px;
+    }
+    .search-item {
+        padding: 5px 10px;
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .full-width {
+                .toplist-rating {
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .toplist-brands {
+                .toplist-img {
+                    .recension-logo {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+            .tc-container {
+                span {
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+    .logo-container {
+        align-items: baseline;
+    }
+    .site-logo img{
+        width: 100px;
+        height: 55px;
+    }
+    .site-logo {
+        height: 55px;
+    }
+    table.all-casinos-list {
+        .column-toplist {
+            width: 48%;
+            margin: 0 1% 20px 1%;
+        }
+    }
+}
+
+#filter-options .item-container{
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    .review-header .review-bonusbox h1{
+        font-size: 28px;
+    }
+    #filter-options .item-container{
+        display: none;
+    }
+    .banner-image {
+        height: 200px;
+    }
+    .banner-info {
+        height: 80px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .sports-banner {
+        .headings {
+            height: 20px;
+        }
+        .heading {
+            font-size: 12px;
+            padding: 0 5px;
+        }
+        .column-event {
+            .team {
+                font-size: 16px;
+            }
+            padding-left: 5px;
+            .league {
+                font-size: 12px;
+                font-weight: 800;
+            }
+        }
+        .column-date {
+            .date {
+                font-size: 13px;
+            }
+            .time {
+                font-size: 14px;
+            }
+        }
+        .column-tips {
+            padding-left: 5px;
+        }
+    }
+    .featured-header {
+        padding: 0 25px;
+    }
+    .main-pages {
+        .featured-block-main {
+            .featured-info {
+                padding: 10px;
+            }
+        }
+    }
+    .content {
+        .popular-pages-list {
+            display: table;
+            margin-bottom: 30px;
+            width: 100%;
+            a {
+                width: 47%;
+                &:nth-child(odd) {
+                    margin-right: 2.5%;
+                }
+                &:nth-child(even) {
+                    margin-left: 2.5%;
+                }
+            }
+        }
+        blockquote {
+            p {
+                font-size: 18px;
+            }
+            margin-bottom: 10px;
+            padding: 5px 10px;
+        }
+        .wp-block-pullquote {
+            padding: 10px 0;
+        }
+        .double-cta {
+            a {
+                padding: 7.5px 20px;
+                font-size: 15px;
+            }
+        }
+    }
+    .review-header {
+        .brands-container {
+            padding: 15px 0px;
+            width: 80%;
+        }
+    }
+    .review-navigation {
+        .brands-navbar {
+            .navigation-links {
+                a {
+                    font-size: 13px;
+                    font-size: 13px;
+                    padding: 7.5px 0;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .full-width {
+        .review-navigation {
+            .brands-navbar {
+                .navigation-links {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    #breadcrumbs {
+        a {
+            font-size: 14px;
+        }
+        .breadcrumb_last {
+            font-size: 14px;
+        }
+    }
+    .last-updated {
+        span {
+            font-size: 12px;
+        }
+        i {
+            font-size: 14px;
+        }
+    }
+    .review {
+        h1 {
+            font-size: 36px;
+        }
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    a {
+        font-size: 13px;
+    }
+    li {
+        font-size: 13px;
+    }
+    span {
+        font-size: 11px;
+    }
+    .toplist-rating {
+        padding: 0;
+        span {
+            font-size: 16px;
+        }
+    }
+    .toplist-bonus {
+        padding: 0 5px;
+        span {
+            font-size: 13px;
+        }
+    }
+    .toplist-cta {
+        .cta-button {
+            padding: 5px 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+    .toplist-img {
+        .recension-logo {
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .recension-text {
+        p {
+            font-size: 9px;
+        }
+    }
+    .toplist-tc-row {
+        justify-content: center;
+    }
+    .events-list {
+        .column-date {
+            .date {
+                font-size: 12px;
+            }
+        }
+        span {
+            font-size: 10px;
+        }
+        .column-sport {
+            i {
+                font-size: 17px;
+            }
+        }
+        .column-event {
+            .team {
+                font-size: 12px;
+            }
+            .league {
+                font-size: 10px;
+            }
+        }
+        .heading {
+            font-size: 12px;
+        }
+        .column-odds {
+            a {
+                img {
+                    height: 20px;
+                }
+            }
+            span {
+                font-size: 12px;
+                padding: 3px 15px;
+            }
+        }
+    }
+    footer {
+        .widget {
+            h3 {
+                font-size: 14px;
+            }
+            a {
+                font-size: 11px;
+            }
+        }
+    }
+    .featured-block-small {
+        .featured-info {
+            width: 65%;
+        }
+        .featured-image {
+            width: 35%;
+        }
+    }
+    .faq-heading {
+        font-size: 20px;
+    }
+    .slots-container {
+        width: 50%;
+    }
+    .toplist-brands {
+        .upper {
+            .toplist-img {
+                width: 30%;
+            }
+        }
+        .toplist-rating {
+            width: 25%;
+        }
+    }
+    .tips-item {
+        padding: 12.5px;
+        p {
+            font-size: 11px;
+        }
+        span {
+            font-size: 10px;
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .toplist-brands {
+                width: 50%;
+                .toplist-img {
+                    .recension-logo {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+            .full-width {
+                .toplist-rating {
+                    p {
+                        font-size: 17px;
+                    }
+                }
+            }
+            .tc-container {
+                span {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+    .brand-block {
+        .brand-header-container {
+            .brand-logo {
+                height: 50px;
+            }
+            .custom-title {
+                font-size: 26px;
+            }
+        }
+        .brand-textarea {
+            p {
+                font-size: 13px;
+            }
+        }
+        .brand-bonustext {
+            p {
+                font-size: 20px;
+            }
+        }
+        .brand-block-cta {
+            span {
+                font-size: 18px;
+            }
+        }
+        .brand-block-recension {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .custom-title {
+        .item_title {
+            font-size: 26px;
+        }
+        .item_vs {
+            font-size: 38px;
+        }
+        font-size: 18px;
+    }
+    .vs-item-block {
+        ul {
+            padding-left: 5px;
+            li {
+                font-size: 13px;
+            }
+        }
+    }
+    .top-menu {
+        a {
+            color: $dark;
+            font-size: 14px;
+        }
+    }
+    .container-block {
+        padding: 20px 10px;
+    }
+    .related-article-item-content {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        .related-thumbnail {
+            height: 220px;
+        }
+        .related-info {
+            height: 140px;
+        }
+    }
+    .custom-title.smaller {
+        font-size: 16px;
+    }
+    .author-pages {
+        .related-article-item-content {
+            .related-info {
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .item-container {
+                box-shadow: 0 10px 10px rgba(40,62,81,0.12);
+            }
+        }
+        .related-info {
+            .read-more-btn {
+                display: none;
+            }
+        }
+    }
+    .author-container {
+        flex-direction: column;
+        padding: 0;
+    }
+    .author-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .author-info {
+        padding: 5px 20px 15px 20px;
+    }
+    .author-bio {
+        width: 100%;
+    }
+    .container.author-pages {
+        padding: 20px;
+    }
+  .intro-homepage {
+    p{
+      font-size: 13px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+    .compliance-logos {
+        flex-direction: column;
+    }
+    .comp-logo {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        .footer-info-row {
+            width: 100%;
+        }
+        .sidebar-footer {
+            margin-bottom: 2.5px;
+        }
+    }
+    .main {
+        .featured-block-main {
+            .featured-info {
+                padding: 10px;
+                p {
+                    font-size: 18px;
+                }
+                span {
+                    font-size: 11px;
+                }
+            }
+        }
+        .featured-block-small {
+            height: auto;
+            .featured-info {
+                padding: 5px 10px;
+            }
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .tc-container {
+                span {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    .btn {
+        width: 100%;
+    }
+    .review-cta-scroll .toplist-bonus p,
+    .review-cta-scroll .toplist-bonus span {
+        font-size: 15px; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .top-menu {
+        .menu-items {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .archive {
+        padding: 0 5px;
+    }
+    .container.inside-article {
+        padding: 0 10px;
+    }
+    .review-text {
+        padding: 0 5px;
+    }
+    .review-info {
+        padding: 0 5px;
+    }
+    .review-navigation {
+        .brands-navbar {
+            padding: 0 17px;
+        }
+    }
+    .full-width {
+        .review-navigation {
+            .brands-navbar {
+                padding: 0 17px;
+            }
+        }
+        .upper {
+            padding: 10px 0 10px 0;
+        }
+        .container.header-textarea {
+            padding: 15px 15px;
+        }
+        .container {
+            padding: 0 15px;
+        }
+    }
+    .page-info {
+        padding: 5px 7px;
+    }
+    .fullwidth {
+        .page-info {
+            padding: 10px 17px;
+        }
+    }
+    .review-header {
+        .review-img {
+            margin-bottom: 0;
+            span {
+                font-size: 22px;
+            }
+            h1 {
+                font-size: 35px;
+                text-align: left;
+            }
+        }
+        .review-bonusbox {
+            padding: 5px;
+            p {
+                font-size: 13px;
+            }
+            span {
+                text-align: center;
+            }
+        }
+        .review-cta {
+            .cta-button {
+                width: 100%;
+            }
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+    .tc-box-review {
+        span {
+            font-size: 10px;
+        }
+    }
+    .toplist-cta {
+        .tc-link {
+            margin-top: 7.5px;
+        }
+    }
+    .toplist-brands {
+        .toplist-img {
+            width: auto;
+            display: inline-block;
+            border: none;
+            padding-right: 2.5px;
+            margin-bottom: 10px;
+            .recension-logo {
+                width: 70px;
+                float: right;
+                height: 70px;
+            }
+            .rating-mobile {
+                display: block;
+            }
+        }
+        .toplist-flex {
+            width: 100%;
+        }
+        .toplist-bonus {
+            width: 100%;
+            margin-top: 5px;
+            span {
+                font-size: 15px;
+                line-height: 1;
+            }
+        }
+        width: 100%;
+        display: block;
+        .toplist-rating {
+            width: auto;
+            height: 70px;
+            text-align: left;
+            padding-left: 2.5px;
+            align-items: flex-start;
+        }
+        .toplist-cta {
+            margin-top: 10px;
+            width: 100%;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%;
+            .cta-button {
+                width: 100%;
+                span {
+                    font-size: 17px;
+                }
+            }
+        }
+        .tc-container {
+            &:not(:first-child) {
+                margin-top: 5px;
+            }
+        }
+    }
+    .recension-logo {
+        width: auto;
+    }
+    .recension-text {
+        width: auto;
+        margin-left: 5px;
+        text-align: left;
+        p {
+            font-size: 20px;
+            margin: 0;
+            border-bottom: 0;
+        }
+    }
+    .upper {
+        padding: 10px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+    .toplist-rating {
+        p {
+            text-align: left;
+            font-size: 20px;
+        }
+        span {
+            text-align: left;
+            font-size: 20px;
+        }
+    }
+    .review-button {
+        display: block;
+        transition: all 0.2s ease-in-out;
+        margin-top: 10px;
+        span {
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-flex;
+            text-align: center;
+            color: #333;
+            transition: all 0.1s ease-in-out;
+            border-bottom: 1px solid;
+            border-color: #333333;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+    .tc-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        >span {
+            &:not(:last-child) {
+                padding-left: .5em;
+            }
+        }
+        span {
+            line-height: 1;
+        }
+        a {
+            padding-left: 0.5em;
+        }
+    }
+    .toplist-tc-row {
+        padding: 5px;
+    }
+    .events-list {
+        box-shadow: none;
+        .headings {
+            display: none;
+        }
+        .rowlink {
+            margin-bottom: 5px;
+            border: 1px solid;
+            border-color: $block-border;
+        }
+        .item {
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+            position: relative;
+            &:hover {
+                box-shadow: 0 0 4px 0 rgba(0,0,0,0.20);
+            }
+        }
+        .column-date {
+            width: auto;
+            position: absolute;
+            right: 10px;
+            text-align: right;
+            padding: 0;
+            .date {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.3;
+                margin-bottom: 0;
+            }
+            .time {
+                font-size: 12px;
+                font-weight: normal;
+            }
+        }
+        .column-event {
+            .team {
+                font-size: 14px;
+            }
+            .league {
+                font-size: 12px;
+            }
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .column-sport {
+            display: none;
+        }
+        .odds-wrap {
+            width: 100%;
+            text-align: center;
+        }
+        .column-odds {
+            a {
+                width: 100%;
+                img {
+                    height: 22.5px;
+                }
+            }
+            span {
+                padding: 5px 0;
+                font-size: 14px;
+            }
+        }
+    }
+    .column-odds {
+        width: 30%;
+    }
+    .column-odds.odds-1 {
+        &:before {
+            content: "1";
+            font-size: 13px;
+            color: #222222;
+            font-weight: 400;
+        }
+    }
+    .column-odds.odds-x {
+        &:before {
+            content: "X";
+            font-size: 13px;
+            color: #222222;
+            font-weight: 400;
+        }
+    }
+    .column-odds.odds-2 {
+        &:before {
+            content: "2";
+            font-size: 13px;
+            color: #222222;
+            font-weight: 400;
+        }
+    }
+    .odds-sub {
+        .odds-item {
+            width: 20%;
+        }
+    }
+    .odds-speltips {
+        .speltips-tips {
+            width: 60%;
+            p {
+                font-size: 15px;
+            }
+        }
+        .speltips-item {
+            width: 20%;
+        }
+    }
+    .home-sidebar {
+        padding: 0 5px;
+    }
+    .sidebar {
+        padding: 0 5px;
+    }
+    .default-content {
+        padding: 0 5px;
+    }
+    .featured-header {
+        padding: 0 5px 10px 5px;
+        padding: 0 15px;
+    }
+    .featured-block-main {
+        .featured-image {
+            height: 200px;
+        }
+        .featured-info {
+            p {
+                font-size: 16px;
+            }
+        }
+        .featured-tag {
+            span {
+                font-size: 14px;
+            }
+            i {
+                font-size: 13px;
+            }
+        }
+        .hover-board {
+            display: none;
+        }
+    }
+    .featured-block-small {
+        .featured-info {
+            p {
+                font-size: 14px;
+            }
+            span {
+                font-size: 11px;
+            }
+            width: 60%;
+            .read-more-btn {
+                padding: 2.5px 10px;
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+        .featured-image {
+            width: 40%;
+        }
+        .hover-board {
+            display: none;
+        }
+    }
+    .slots-header {
+        height: 200px;
+    }
+    .slots-cta {
+        .cta-button {
+            padding: 5px 15px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .featured-template {
+        .page-info {
+            padding: 5px 7px;
+        }
+    }
+    .last-updated {
+        padding: 5px 0;
+        i {
+            font-size: 11px;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+    #breadcrumbs {
+        a {
+            font-size: 11px;
+        }
+        .breadcrumb_last {
+            font-size: 11px;
+        }
+    }
+    .related-thumbnail {
+        width: 35%;
+    }
+    .related-info {
+        width: 65%;
+        padding: 2.5px 5px;
+        p {
+            font-size: 14px;
+            margin-bottom: 1px;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+    .expired-license {
+        p {
+            font-size: 14px;
+        }
+        .recension-btn {
+            padding: 5px 20px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .content {
+        blockquote {
+            padding: 5px;
+            p {
+                font-size: 14px;
+                padding: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .toplist-brands.no-license {
+        .expired-license {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    #wpadminbar {
+        position: fixed;
+    }
+    .tc-sidebar-box {
+        span {
+            font-size: 9px;
+        }
+    }
+    .bongo-header-icon {
+        top: 20px;
+    }
+    #search-btn {
+        padding: 6px;
+        font-size: 14px;
+        width: 30px;
+    }
+    .wp-block-image {
+        .alignright {
+            max-width: 150px;
+        }
+    }
+    .faq-heading {
+        font-size: 18px;
+    }
+    .review-cta-scroll {
+        .review-cta-container {
+            .tc-container.extra-field {
+                padding-top: 2.5px;
+            }
+        }
+    }
+    .custom-pages-link-container {
+        .right-arrows {
+            display: none;
+        }
+    }
+    .homepage {
+        .full-width {
+            .container.header-textarea {
+                padding: 0 15px;
+            }
+        }
+        .header-textarea {
+            .wp-block-image {
+                margin-left: 5px;
+            }
+        }
+        .full-widht-header {
+            .wp-block-image {
+                img {
+                    max-height: 150px;
+                }
+            }
+        }
+    }
+    .container.header-textarea {
+        flex-direction: column-reverse;
+    }
+    .header-textarea {
+        .wp-block-image {
+            padding: 0;
+            margin: 10px 0;
+        }
+    }
+    .full-widht-header {
+        .wp-block-image {
+            img {
+                max-height: 130px;
+            }
+        }
+    }
+    .wp-block-image.mobile-image {
+        .alignright {
+            max-width: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        img {
+            width: 100%;
+        }
+        figcaption {
+            margin: 0 0 10px 0;
+        }
+    }
+    .tips-item {
+        width: 100%;
+        &:nth-of-type(odd) {
+            margin-right: 0;
+        }
+        &:nth-of-type(even) {
+            margin-left: 0;
+        }
+        p {
+            font-size: 13px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+    .alla-casinon {
+        .casino-filter-container {
+            .toplist-brands {
+                width: 100%;
+                .toplist-img {
+                    .recension-logo {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                .toplist-bonus {
+                    span {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .full-width {
+                .toplist-rating {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .toplist-cta {
+                .cta-button {
+                    span {
+                        font-size: 17px;
+                    }
+                }
+            }
+            .tc-container {
+                span {
+                    font-size: 10px;
+                }
+            }
+            .tc-container.extra-field {
+                span {
+                    font-size: 8px;
+                }
+            }
+            .toplist-tc-row {
+                height: auto;
+                padding: 10px 0;
+            }
+        }
+    }
+    .slots-title {
+        span {
+            font-size: 15px;
+        }
+    }
+    .brand-block {
+        .brand-header-container {
+            .slots-logo {
+                width: 200px;
+                height: 100%;
+            }
+        }
+        .custom-header {
+            img {
+                height: 50px;
+            }
+        }
+    }
+    .slots-block.brand-block {
+        .brand-header-container {
+            .custom-title {
+                font-size: 22px;
+            }
+        }
+        .brand-block-cta {
+            span {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        padding: 12.5px;
+    }
+    .slots-block {
+        .slots-info-header {
+            ul {
+                li {
+                    p {
+                        font-size: 13px;
+                    }
+                    span {
+                        font-size: 13px;
+                    }
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .cta.btn {
+            padding: 10px 25px;
+            span {
+                font-size: 18px;
+            }
+        }
+    }
+    .cta {
+        a {
+            padding: 10px 15px;
+        }
+    }
+    .custom-title {
+        .item_title {
+            font-size: 22px;
+        }
+        .item_vs {
+            font-size: 34px;
+        }
+    }
+    .vs-item-block {
+        ul {
+            padding-left: 2.5px;
+            li {
+                font-size: 12px;
+                &:before {
+                    margin-right: 3px;
+                }
+            }
+        }
+        width: 47.5%;
+        span {
+            font-size: 16px;
+        }
+    }
+    .vs-block.custom-block.brand-block {
+        padding: 10px;
+    }
+    .middle-line {
+        width: 5%;
+        .actual-line {
+            width: 1px;
+        }
+    }
+    .custom-block.brand-block {
+        .brand-header-container {
+            .custom-title {
+                font-size: 22px;
+            }
+        }
+    }
+    .conclusion-text {
+        span {
+            font-size: 16px;
+        }
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .homepage-toplist-section {
+        .container-block {
+            margin: 10px -15px;
+            border-radius: 0;
+            padding: 15px;
+            width: auto;
+        }
+    }
+    table.toplist-table {
+        .top-order {
+            width: 40px;
+            position: absolute;
+            justify-content: flex-start;
+            padding-left: 15px;
+            padding-bottom: 0;
+            font-size: 16px;
+            height: 40px;
+            border-radius: 100%;
+            top: 20px;
+            transform: inherit;
+        }
+        .name-logo {
+            padding: 10px 30px 10px 30px;
+            height: 120px;
+            img {
+                object-fit: contain;
+            }
+        }
+        tbody {
+            ul {
+                margin-bottom: 10px;
+                margin-top: 0;
+                padding: 0;
+            }
+        }
+        ul {
+            li {
+                &:before {
+                    margin-right: 5px;
+                }
+                font-size: 12px;
+            }
+        }
+        a.review-link {
+            font-size: 13px;
+        }
+        thead {
+            tr {
+                padding: 0;
+                border: 0;
+            }
+        }
+        tr {
+            th {
+                font-size: 0;
+                padding: 0;
+                &:nth-child(1) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(2) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(3) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(4) {
+                    flex: 0 0 100%;
+                }
+            }
+            td {
+                &:nth-child(1) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(2) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(3) {
+                    flex: 0 0 100%;
+                }
+                &:nth-child(4) {
+                    flex: 0 0 100%;
+                }
+            }
+        }
+        .middle {
+            align-items: center;
+            p {
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+        .rightside {
+            .btn {
+                margin: 5px auto 10px;
+                padding: 12.5px 5px;
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .btn {
+        margin: 5px 0;
+    }
+    .switchable-block-icon {
+        width: 25%;
+    }
+    .switchable-block-text {
+        .custom-title {
+            font-size: 18px;
+        }
+        padding-left: 2.5%;
+    }
+    .switchable-block-id {
+        width: 12.5%;
+    }
+    .switchable-block-container {
+        width: 90%;
+        p {
+            font-size: 12px;
+            line-height: 1.8;
+            color: #585858;
+        }
+    }
+    .switch-container {
+        .left-side {
+            justify-content: flex-start;
+        }
+        .right-side {
+            justify-content: flex-start;
+        }
+    }
+    .review-block {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+        .left-block {
+            width: 100%;
+            margin-bottom: 5px;
+            span {
+                font-size: 30px;
+            }
+        }
+        .right-block {
+            width: 100%;
+            padding: 0;
+            svg {
+                display: none;
+            }
+            .bonustext {
+                font-size: 25px;
+                text-align: center;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+            }
+        }
+    }
+    table.all-casinos-list {
+        .column-toplist {
+            width: 100%;
+            margin: 0 0 20px 0;
+            padding: 15px;
+            .logo-section {
+                height: 100px;
+            }
+            .rating-section {
+                span {
+                    font-size: 28px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+            .bonus-section {
+                p {
+                    font-size: 18px;
+                }
+            }
+            .review-section {
+                span {
+                    font-size: 15px;
+                    margin-top: 5px;
+                }
+            }
+            .btn.cta {
+                padding: 10px 5px;
+                margin: 10px auto;
+            }
+        }
+    }
+    td.extra-field {
+        margin-top: 5px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .totop {
+        bottom: 30px;
+        right: 10px;
+    }
+    .searchfield {
+        width: auto;
+    }
+    .searchfield.open {
+        width: 100%;
+    }
+    .restricted-block.rebuild {
+        background-image: none !important;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    main {
+        padding-top: 0;
+    }
+    .featured-block-small {
+        height: 105px;
+        .featured-info {
+            span {
+                font-size: 10px;
+                line-height: 1.3;
+                margin-bottom: 2.5px;
+            }
+            .read-more-btn {
+                display: none;
+            }
+            padding: 3.5px 10px;
+            p {
+                font-size: 13px;
+                line-height: 1.1;
+                margin-bottom: 2.5px;
+            }
+        }
+    }
+    .top-menu {
+        li {
+            img {
+                width: 20px;
+            }
+            span {
+                font-size: 12px;
+                margin-right: 2.5px;
+            }
+        }
+        a {
+            font-size: 11px;
+            padding: 10px 5px;
+        }
+    }
+    .review-navigation {
+        .brands-navbar {
+            .navigation-links {
+                a {
+                    padding: 7.5px 0;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .page-info {
+        padding: 2.5px 7px;
+    }
+    .navigation {
+        height: 70px;
+        margin-top: 55px;
+    }
+    .search-results {
+        margin-top: 43px;
+    }
+    .bongo-menu-list {
+        top: 47px;
+        height: calc( 100vh - 80px);
+        padding: 5px;
+        >ul {
+            >li.menu-item-has-children {
+                .mb-dropdown-icon {
+                    height: 35px;
+                }
+                >ul {
+                    >.menu-item-has-children {
+                        .mb-dropdown-icon {
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        ul {
+            >li.menu-item-has-children {
+                .mb-dropdown-icon {
+                    &:before {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        ul.depth0 {
+            >li.menu-item-has-children {
+                .mb-dropdown-icon {
+                    &:before {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        ul.depth1 {
+            >li.menu-item-has-children {
+                .mb-dropdown-icon {
+                    &:before {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .tc-container {
+        span {
+            font-size: 8px;
+            line-height: 1;
+        }
+    }
+    .toplist-container {
+        h2 {
+            font-size: 16px;
+            &:before {
+                font-size: 18px;
+            }
+        }
+    }
+    .middle {
+        p {
+            font-size: 13px;
+        }
+        span {
+            font-size: 11px;
+        }
+        width: 65%;
+    }
+    .rightside {
+        .cta-button {
+            span {
+                font-size: 12px;
+            }
+        }
+        width: 35%;
+    }
+    #breadcrumbs {
+        margin: 0;
+        a {
+            font-size: 10px;
+        }
+        .breadcrumb_last {
+            font-size: 10px;
+        }
+    }
+    .last-updated {
+        span {
+            font-size: 10px;
+        }
+        i {
+            font-size: 10px;
+            margin-right: 2.5px;
+        }
+    }
+    .slots-header {
+        height: 180px;
+    }
+    .slots-cta {
+        .cta-button {
+            padding: 5px 15px;
+            span {
+                font-size: 11px;
+            }
+        }
+    }
+    .slots-toplist-cta {
+        .tc-link {
+            font-size: 10px;
+            margin-top: 5px;
+        }
+    }
+    #search-btn {
+        padding: 7px;
+        font-size: 14px;
+        width: 32.5px;
+    }
+    .bongo-header-icon {
+        top: 20px;
+    }
+    .bottom-menu {
+        a {
+            font-size: 16px;
+        }
+    }
+    ul.depth0 {
+        padding-left: 10px;
+        a {
+            font-size: 14px;
+        }
+    }
+    ul.depth1 {
+        a {
+            font-size: 13px;
+        }
+    }
+    .logo-container {
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+    .review-header {
+        .review-img {
+            img {
+                filter: none;
+            }
+            h1 {
+                font-size: 35px;
+                font-size: 32px;
+            }
+        }
+    }
+    .odds-item {
+        img {
+            object-fit: contain;
+            height: 15px;
+        }
+        span {
+            font-size: 11px;
+        }
+        p {
+            font-size: 10px;
+            margin-bottom: 1px;
+        }
+    }
+    .team {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .teams-sub {
+        align-items: unset;
+        p {
+            font-size: 9px;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+    .vs {
+        padding: 0 2.5px;
+    }
+    .wp-block-image {
+        .alignright {
+            max-width: 125px;
+        }
+    }
+    .slots-container {
+        img {
+            height: 110px;
+        }
+    }
+    .custom-pages-link-container {
+        .middle-text {
+            p {
+                font-size: 14px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .review-cta-scroll {
+        .review-cta-container {
+            .toplist-cta {
+                .cta-button {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .featured-block-main {
+        .info-wrapper {
+            padding: 5px;
+        }
+        .featured-image {
+            height: 150px;
+        }
+        .featured-info {
+            padding: 5px;
+            width: 100%;
+        }
+        .featured-logo {
+            display: none;
+        }
+    }
+    .featured-tag {
+        display: block;
+    }
+    .featured-header {
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .main-pages {
+        .featured-block-main {
+            .featured-image {
+                height: auto;
+            }
+            .featured-info {
+                padding: 7.5px;
+                p {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        .featured-block-small {
+            .featured-info {
+                .featured-tag {
+                    span {
+                        font-size: 11px;
+                    }
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .expired-license {
+        h1 {
+            font-size: 32px;
+        }
+    }
+    .tips-item {
+        padding: 12.5px 7.5px;
+        img {
+            width: 35px;
+        }
+        p {
+            font-size: 12px;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+    .post-categories {
+        margin-top: 7.5px;
+        margin-bottom: 5px;
+    }
+    .odds-table {
+        td {
+            min-width: 150px;
+        }
+    }
+    .author-img {
+        width: 120px;
+    }
+    .author-info {
+        h3 {
+            margin-top: 7.5px;
+        }
+        p {
+            font-size: 11px;
+            line-height: 1.3;
+        }
+    }
+    .author-interests {
+        position: relative;
+        bottom: inherit;
+    }
+    .custom-block.brand-block {
+        .brand-header-container {
+            .custom-title {
+                font-size: 22px;
+            }
+        }
+        .custom-header {
+            img {
+                height: 45px;
+                margin-right: 5px;
+            }
+        }
+    }
+    .slots-block {
+        .slots-info-header {
+            ul {
+                li {
+                    p {
+                        font-size: 12px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .brand-block {
+        .brand-header-container {
+            .slots-logo {
+                width: 180px;
+                position: absolute;
+                top: 40px;
+                right: 0px;
+                height: auto;
+            }
+        }
+    }
+    .custom-title {
+        .item_vs {
+            font-size: 28px;
+        }
+        .item_title {
+            font-size: 18px;
+        }
+    }
+    .vs-container {
+        flex-direction: column;
+    }
+    .middle-line {
+        display: none;
+    }
+    .vs-item-block {
+        width: 100%;
+        span {
+            text-align: left;
+        }
+    }
+    .content {
+        .double-cta {
+            a {
+                padding: 5px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+    .switchable-block-container {
+        width: 100%;
+    }
+    .switchable-block-icon {
+        width: 20%;
+    }
+    .switchable-block-text {
+        .custom-title {
+            font-size: 16px;
+        }
+    }
+    .switch-container {
+        .left-side {
+            display: none;
+        }
+        .right-side {
+            display: none;
+        }
+    }
+    .review-block {
+        padding: 20px 10px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .slots-container {
+        width: 100%;
+        padding: 0;
+        img {
+            height: 150px;
+        }
+    }
+    .slots-title {
+        span {
+            font-size: 19px;
+        }
+    }
+    .slots-info {
+        span {
+            font-size: 13px;
+        }
+    }
+    .header-textarea {
+        .wp-block-image {
+            min-width: 130px;
+        }
+    }
+    .full-widht-header {
+        .wp-block-image {
+            img {
+                max-height: 110px;
+            }
+        }
+    }
+    .homepage {
+        .full-widht-header {
+            .wp-block-image {
+                img {
+                    max-height: 120px;
+                }
+            }
+        }
+    }
+    .review-header {
+        .review-cta {
+            .cta-button {
+                span {
+                    font-size: 20px;
+                    &:before {
+                        font-size: 18px;
+                        margin-right: 2.5px;
+                    }
+                }
+            }
+        }
+    }
+    .brand-block {
+        padding: 12.5px;
+        .brand-block-cta {
+            span {
+                font-size: 17px;
+            }
+        }
+        .brand-block-tc {
+            span {
+                font-size: 9px;
+            }
+        }
+        .brand-block-recension {
+            span {
+                font-size: 13px;
+            }
+        }
+        .brand-bonustext {
+            margin: 10px 0;
+        }
+    }
+    .custom-block.brand-block {
+        .brand-header-container {
+            .custom-title {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .top-menu {
+        li {
+            margin: 0;
+        }
+        a {
+            font-size: 10px;
+        }
+    }
+    .review-header {
+        .brands-container {
+            width: 90%;
+        }
+        .review-img {
+            h1 {
+                font-size: 30px;
+            }
+            img {
+                height: 80px;
+                width: 80px;
+            }
+            span {
+                font-size: 20px;
+            }
+        }
+        .review-cta {
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+    .review-navigation {
+        .brands-navbar {
+            .navigation-links {
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .full-width {
+        .review-navigation {
+            .brands-navbar {
+                .navigation-links {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .page-info {
+        padding: 5px 7px;
+    }
+    #breadcrumbs {
+        a {
+            font-size: 9px;
+        }
+        .breadcrumb_last {
+            font-size: 9px;
+        }
+    }
+    .last-updated {
+        span {
+            font-size: 9px;
+        }
+        i {
+            font-size: 9px;
+        }
+    }
+    .review {
+        h1 {
+            font-size: 32px;
+        }
+        .tc-sidebar-box {
+            span {
+                font-size: 8px;
+            }
+        }
+    }
+    h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 11px;
+    }
+    a {
+        font-size: 11px;
+    }
+    li {
+        font-size: 11px;
+    }
+    span {
+        font-size: 10px;
+    }
+    .middle {
+        span {
+            font-size: 10px;
+        }
+    }
+    .rightside {
+        .cta-button {
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+    .featured-block-small {
+        .featured-info {
+            p {
+                font-size: 11px;
+                margin-bottom: 2.5px;
+            }
+            span {
+                font-size: 9px;
+            }
+        }
+        height: 95px;
+    }
+    .main-pages {
+        .main-wrapper {
+            flex-direction: column;
+        }
+        .featured-block-main {
+            .featured-image {
+                width: 100%;
+                height: 100px;
+            }
+            .info-wrapper {
+                width: 100%;
+            }
+            .featured-info {
+                padding: 7.5px 5px;
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .featured-block-small {
+            margin-top: 2.5px;
+            .featured-info {
+                .featured-tag {
+                    span {
+                        font-size: 10px;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .tc-sidebar-box {
+        span {
+            font-size: 8px;
+        }
+    }
+    .slots-cta {
+        .cta-button {
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+    .slots-container {
+        img {
+            height: 130px;
+        }
+    }
+    .related-info {
+        p {
+            font-size: 13px;
+        }
+        span {
+            font-size: 10px;
+        }
+    }
+    .brand-block {
+        .brand-header-container {
+            .brand-logo {
+                height: 40px;
+            }
+            .custom-title {
+                font-size: 22px;
+                font-size: 20px;
+            }
+            .slots-logo {
+                width: 150px;
+            }
+        }
+        .brand-textarea {
+            p {
+                font-size: 11px;
+            }
+        }
+        .brand-bonustext {
+            margin: 15px 0;
+            p {
+                font-size: 16px;
+            }
+        }
+        .brand-block-cta {
+            padding: 5px 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        .brand-block-recension {
+            span {
+                font-size: 11px;
+            }
+        }
+    }
+    .custom-block.brand-block {
+        .brand-header-container {
+            .custom-title {
+                font-size: 19px;
+            }
+        }
+        .custom-header {
+            img {
+                height: 45px;
+                margin-right: 5px;
+            }
+        }
+    }
+    .custom-title {
+        .item_title {
+            font-size: 16px;
+        }
+        .item_vs {
+            font-size: 22px;
+        }
+    }
+    .content {
+        .double-cta {
+            a {
+                padding: 5px 10px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+.logo-container {
+    right: 0;
+}
+@media (max-width: 1024px) {
+    .logo-container {
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .logo-container {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .site-logo {
+        margin-right: 60px;
+    }
+    .homepage-intro-section {
+        min-height: auto;
+    }
+    .container-block.intro-homepage {
+        //margin-top: 58px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .site-logo {
+        font-size: 30px;
+        height: 55px;
+        margin-right: 20px;
+    }
+    .logo-container {
+        right: 0;
+    }
+    .container-block.intro-homepage{
+        margin-top: 20px;
+      padding: 10px;
+    }
+}
+   
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1034px){
+
+    .logo-container {
+        right: 35px;
+    }
+   
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 768px){
+
+    .site-banner-mobile {
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 500px){
+    .site-banner-mobile{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        z-index: 9;
+        padding: 1px;
+    }
+}
+@media (min-device-width: 1024px) and (max-device-width: 1049px) {
+    .navbar-header-menu {
+        top: 3%;
+    }
+}
+@media screen and (max-width: 600px){
+    
+    .content p {
+        margin-bottom: 0px;
+    }
+    .container-block.intro-homepage {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    // .homepage-intro-section {
+    //     height: 381px;
+    //     padding-top:10px;
+    // }
+    //.restricted-block.homepage-intro-section{
+    //    padding-top: 8px;
+    //}
+    //.container-block.intro-homepage {
+    //    margin-top: 2px;
+    //}
+   
+  }
+
+  //@media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  //  .homepage-intro-section {
+  //      height: 420px;
+  //  }
+  //}
+  //@media screen and (min-device-width: 375px) and (max-device-width: 600px) {
+  //  .homepage-intro-section {
+  //      height: 400px;
+  //  }
+  //}
+  //@media screen and (min-device-width: 601px) and (max-device-width: 768px) {
+  //  .homepage-intro-section {
+  //      height: 382px;
+  //  }
+  //}
+  .filter-title.dropdown-title.collapse-hide{
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    #filter-options .dropdown-title:after {
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        text-align: right;
+        font-weight: 600;
+        font-family: "Font Awesome 5 Free";
+        text-shadow: 0.5px 0.5px 1px rgba(27,27,27,0.15);
+        color: #f5a540;
+        content: "\f067";
+    }
+    #filter-options .dropdown-title.collapse-a:after {
+        content: "\f068";
+    }
+}
